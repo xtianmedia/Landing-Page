@@ -1,0 +1,339 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins";
+}
+
+.body {
+  width: 100%;
+  height: 60rem;
+  background: linear-gradient(135.3deg, #5e005e 19.76%, #01037c 84.41%);
+}
+
+.body .img {
+  width: 30%;
+  height: auto;
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.body .img .ig img {
+  margin-left: 142px;
+  margin-top: 150px;
+  mix-blend-mode: normal;
+  filter: drop-shadow(19.1473px 17.8708px 19.1473px rgba(51, 51, 51, 0.1));
+  transform: rotate(2deg);
+}
+
+.body .img .im img {
+  margin-left: -250px;
+  margin-top: 100px;
+  mix-blend-mode: overlay;
+  filter: drop-shadow(19.1473px 17.8708px 19.1473px rgba(51, 51, 51, 0.1));
+  transform: rotate(5deg);
+}
+
+.body .text {
+  width: 30%;
+  height: auto;
+  margin-left: 500px;
+  margin-top: -530px;
+}
+
+.body .text h1 {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 80px;
+  line-height: 100%;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+}
+
+.body .text p {
+  margin-top: 50px;
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 100%;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+}
+
+.body .form {
+  width: 40%;
+  height: auto;
+  margin-right: 200px;
+  margin-top: 150px;
+  display: flex;
+  flex-flow: wrap;
+  float: right;
+}
+
+.body .form p {
+  width: 450px;
+  height: 48px;
+  margin-bottom: 20px;
+  font-family: "Poppins";
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+}
+
+.body .form .forma {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  background: #ffffff;
+  border: 4px dashed #190274;
+}
+
+.body .form .forma input {
+  width: 90%;
+  height: 40px;
+  align-self: center;
+  margin-top: 30px;
+}
+
+.body .form .forma button {
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  width: 200px;
+  height: 49px;
+  background: linear-gradient(90deg, #5e005e 0%, #01037c 100%);
+  border-radius: 20px;
+  border-style: none;
+}
+
+.body .form .forma button a {
+  color: #ffffff;
+  text-decoration: none;
+  font-family: "Poppins";
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+}
+
+
+@media only screen and (max-width: 750px) {
+  .body .img {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+  }
+
+  .body .img .ig img {
+    width: 300px;
+    margin-left: 200px;
+    margin-top: 110px;
+    mix-blend-mode: normal;
+    filter: drop-shadow(19.1473px 17.8708px 19.1473px rgba(51, 51, 51, 0.1));
+    transform: rotate(2deg);
+  }
+
+  .body .img .im img {
+    width: 300px;
+    margin-left: -200px;
+    margin-top: 80px;
+    mix-blend-mode: overlay;
+    filter: drop-shadow(19.1473px 17.8708px 19.1473px rgba(51, 51, 51, 0.1));
+    transform: rotate(5deg);
+  }
+
+  .body .text {
+    width: 100%;
+    height: 100px;
+    margin-top: 10px;
+    margin-left: 0%;
+    overflow: hidden;
+  }
+
+  .body .text h1 {
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 100%;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #ffffff;
+  }
+
+  .body .text p {
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #ffffff;
+  }
+
+  .body .form {
+    width: 90%;
+    height: auto;
+    margin-right: 40px;
+    margin-top: 30px;
+    display: flex;
+    flex-flow: wrap;
+    overflow: hidden;
+  }
+
+  .body .form p {
+    width: 100%;
+    height: 48px;
+    margin-bottom: 20px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 100%;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #ffffff;
+  }
+
+  .body .form .forma {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    background: #ffffff;
+    border: 2px dashed #190274;
+  }
+
+  .body .form .forma input {
+    width: 90%;
+    height: 30px;
+    align-self: center;
+    margin-top: 30px;
+  }
+
+  .body .form .forma button {
+    width: 40%;
+    background: linear-gradient(90deg, #5e005e 0%, #01037c 100%);
+    border-radius: 20px;
+    border-style: none;
+  }
+
+  .body .form .forma button a {
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 15px;
+    letter-spacing: -0.02em;
+  }
+}
+
+
+@media only screen and (max-width: 400px) {
+  .body .img {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+  }
+
+  .body .img .ig img {
+    width: 300px;
+    margin-left: 40px;
+    margin-top: 110px;
+    mix-blend-mode: normal;
+    filter: drop-shadow(19.1473px 17.8708px 19.1473px rgba(51, 51, 51, 0.1));
+    transform: rotate(2deg);
+  }
+
+  .body .img .im img {
+    width: 300px;
+    margin-left: -280px;
+    margin-top: 80px;
+    mix-blend-mode: overlay;
+    filter: drop-shadow(19.1473px 17.8708px 19.1473px rgba(51, 51, 51, 0.1));
+    transform: rotate(5deg);
+  }
+
+  .body .text {
+    width: 100%;
+    height: 100px;
+    margin-top: 10px;
+    margin-left: 0%;
+    overflow: hidden;
+  }
+
+  .body .text h1 {
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 100%;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #ffffff;
+  }
+
+  .body .text p {
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #ffffff;
+  }
+
+  .body .form {
+    width: 80%;
+    height: auto;
+    margin-right: 40px;
+    margin-top: 30px;
+    display: flex;
+    flex-flow: wrap;
+    overflow: hidden;
+  }
+
+  .body .form p {
+    width: 100%;
+    height: 48px;
+    margin-bottom: 20px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 100%;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #ffffff;
+  }
+
+  .body .form .forma {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    background: #ffffff;
+    border: 2px dashed #190274;
+  }
+
+  .body .form .forma input {
+    width: 90%;
+    height: 30px;
+    align-self: center;
+    margin-top: 30px;
+  }
+
+  .body .form .forma button {
+    width: 50%;
+    background: linear-gradient(90deg, #5e005e 0%, #01037c 100%);
+    border-radius: 20px;
+    border-style: none;
+  }
+
+  .body .form .forma button a {
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 12px;
+    letter-spacing: -0.02em;
+  }
+}
